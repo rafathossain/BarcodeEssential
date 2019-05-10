@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/main_feature"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_scan"
+            android:title="@string/barcode_scanner" />
+        <item
+            android:id="@+id/nav_generate"
+            android:icon="@drawable/ic_low_priority"
+            android:title="@string/barcode_generator" />
+
+    </group>
+
+    <group
+        android:id="@+id/about_tech_ninja"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/help_amp_feedback" />
+    </group>
+</menu>
+

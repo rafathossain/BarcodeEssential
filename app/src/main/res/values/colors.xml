@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43A047</color>
+    <color name="colorPrimaryDark">#43A047</color>
+    <color name="colorAccent">#3f51b5</color>
+    <color name="colorGreen">#5cb85c</color>
+    <color name="colorRed">#d9534f</color>
+    <color name="colorLogin">#428bca</color>
+    <color name="GREEN600">#43A047</color>
+    <color name="RED600">#E53935</color>
+    <color name="INDIGO600">#3949AB</color>
+    <color name="MAT_BLACK">#181818</color>
+</resources>

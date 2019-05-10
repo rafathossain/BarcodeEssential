@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.thetechninja.barcodeessential.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_home50"
+            android:contentDescription="@string/ndn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/generated_barcode"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:id="@+id/resimg"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/ndn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_to_gallery"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="false"
+            android:id="@+id/save"
+            android:textColor="#fff"
+            android:background="@color/GREEN600"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableTop="@drawable/ic_bd32"
+            android:text="@string/made_in_bangladesh"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
+

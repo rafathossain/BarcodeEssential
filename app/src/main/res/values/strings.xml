@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Barcode Essential</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+    <string name="generate_barcode">Generate Barcode</string>
+    <string name="welcome_to_barcode_essential">Welcome to Barcode Essential</string>
+    <string name="ndn">ndn</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="supported_barcode_types">Supported Barcode Types</string>
+    <string name="help_amp_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="feedback">Your feedback is very important to us\nGive your feedback to make it even more better\nYou can also suggest missing features</string>
+    <string name="made_in_bangladesh">Made in Bangladesh\nv4.0.0</string>
+    <string name="qr_code">QR_CODE</string>
+    <string name="upc_a">UPC_A</string>
+    <string name="upc_e">UPC_E</string>
+    <string name="aztec">AZTEC</string>
+    <string name="codabar">CODABAR</string>
+    <string name="code_39">CODE_39</string>
+    <string name="code_93">CODE_93</string>
+    <string name="code_128">CODE_128</string>
+    <string name="data_matrix">DATA_MATRIX</string>
+    <string name="ean_8">EAN_8</string>
+    <string name="ean_13">EAN_13</string>
+    <string name="itf">ITF</string>
+    <string name="maxicode">MAXICODE</string>
+    <string name="pdf_417">PDF_417</string>
+    <string name="generated_barcode">Generated Barcode</string>
+    <string name="save_to_gallery">Save to Gallery</string>
+    <string name="text_to_generate_code">Text to Generate Code</string>
+    <string name="generate_qr_code">Generate QR code</string>
+    <string name="other_types_of_code_generation_will_be_available_in_next_update">Other types of code generation will be available in next update</string>
+    <string name="barcode_generator">Barcode Generator</string>
+    <string name="barcode_essential">Barcode Essential</string>
+    <string name="an_app_for_barcode_solution">An app for Barcode Solution</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="xyz.thetechninja.barcodeessential.GeneratorFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="80dp">
+
+            <!-- TODO: Update blank fragment layout -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_home50"
+                android:contentDescription="@string/ndn"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/welcome_to_barcode_essential"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-light"
+                android:textAlignment="center"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/input_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/text_to_generate_code"
+                    android:textSize="16sp"
+                    android:inputType="text"
+                    tools:ignore="Autofill" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/errorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/generate_qr_code"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textAllCaps="false"
+                android:id="@+id/generate_code"
+                android:textColor="#fff"
+                android:background="@color/GREEN600"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/other_types_of_code_generation_will_be_available_in_next_update"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingExtra="3dp"
+                android:textAlignment="center"
+                android:textColor="#c62828"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableTop="@drawable/ic_bd32"
+                android:text="@string/made_in_bangladesh"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="13sp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+</ScrollView>

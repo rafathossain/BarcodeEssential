@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context="xyz.thetechninja.barcodeessential.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_home50"
+            android:contentDescription="@string/ndn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/welcome_to_barcode_essential"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_barcode"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/scan_code"
+            android:background="@color/GREEN600"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/supported_barcode_types"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="false"
+            android:id="@+id/supported_code"
+            android:background="@color/RED600"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_amp_feedback"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textAllCaps="false"
+            android:id="@+id/feedback"
+            android:textColor="#fff"
+            android:background="@color/INDIGO600"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/feedback"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/MAT_BLACK"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableTop="@drawable/ic_bd32"
+            android:text="@string/made_in_bangladesh"
+            android:textAlignment="center"
+            android:textColor="@color/MAT_BLACK"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    tools:context="xyz.thetechninja.barcodeessential.AboutFragment">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_tech_ninja"
+        tools:ignore="Suspicious0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:text="Tech Ninja is an Android Application Developement company in Bangladesh which was established in January 2018."
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"
+        android:lineSpacingExtra="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Version 3.6.0"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_marginBottom="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="Contact with us"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_mail_22"
+        android:fontFamily="sans-serif"
+        android:text="  Contact us"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:paddingBottom="15dp"
+        android:gravity="center_vertical"
+        android:id="@+id/contactus"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_play"
+        android:fontFamily="sans-serif"
+        android:text="  Rate us on Play Store"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:paddingBottom="15dp"
+        android:gravity="center_vertical"
+        android:id="@+id/rateplay"/>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_vertical"
+        android:text="Copyright © 2018\nAll Rights Reserved"
+        android:textSize="11sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#000"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_bd32"
+        android:text="Made in Bangladesh"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="13sp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+</ScrollView>
