@@ -3,7 +3,7 @@
 </p>
 <h2 align="center">Barcode Essential</h2>
 <p align="center">
-  <a href="https://github.com/rafathossain96/BarcodeEssential">
+  <a href="https://github.com/rafathossain96/BarcodeEssential/releases">
     <img src="https://img.shields.io/github/release/rafathossain96/BarcodeEssential.svg">
   </a>
   <a href="https://github.com/rafathossain96/BarcodeEssential/blob/master/LICENSE">
