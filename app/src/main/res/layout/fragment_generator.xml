@@ -30,7 +30,7 @@
                 android:fontFamily="sans-serif-light"
                 android:textAlignment="center"/>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/input_layout_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
                     android:textSize="16sp"
                     android:inputType="text"
                     tools:ignore="Autofill" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
                 android:id="@+id/errorText"

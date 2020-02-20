@@ -16,7 +16,7 @@
     <string name="supported_barcode_types">Supported Barcode Types</string>
     <string name="help_amp_feedback"><![CDATA[Help & Feedback]]></string>
     <string name="feedback">Your feedback is very important to us\nGive your feedback to make it even more better\nYou can also suggest missing features</string>
-    <string name="made_in_bangladesh">Made in Bangladesh\nv4.0.0</string>
+    <string name="made_in_bangladesh">Made in Bangladesh\nv5.0.0</string>
     <string name="qr_code">QR_CODE</string>
     <string name="upc_a">UPC_A</string>
     <string name="upc_e">UPC_E</string>
